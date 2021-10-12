@@ -85,7 +85,7 @@ public class RPSGame {
 	/**
 	 * Returns Rock, Paper, or Scissors randomly
 	 * 
-	 * @return rock, paper, or scissors
+	 * @return Rock, Paper, or Scissors
 	 */
 	private String chooseRPS() {
 		double num = Math.random();
