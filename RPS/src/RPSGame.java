@@ -10,7 +10,6 @@ public class RPSGame {
 	private String twoMove; // second player's move
 	private String winner; // which player won?
 
-	
 	/**
 	 * Constructs an RPS that runs a round of Rock, Paper, Scissors
 	 * 
@@ -20,7 +19,6 @@ public class RPSGame {
 		roundsTotal = numRounds;
 	}
 
-	// done
 	/**
 	 * Initializes the order the game will run
 	 */
@@ -32,12 +30,11 @@ public class RPSGame {
 			showGame();
 
 		}
-		
+
 		judgeAndReport();
 
 	}
 
-	// done
 	/**
 	 * Initializes the game by setting the variables to a starting point of 0
 	 */
@@ -48,7 +45,6 @@ public class RPSGame {
 		winner = "";
 	}
 
-	// done
 	/**
 	 * Returns <code>true</code> if the number of rounds played is also the total
 	 * rounds wanted to be played
@@ -62,7 +58,6 @@ public class RPSGame {
 		return (roundsPlayed == roundsTotal);
 	}
 
-	// done
 	/**
 	 * Simulates a round of Rock Paper Scissors
 	 */
@@ -87,7 +82,6 @@ public class RPSGame {
 		}
 	}
 
-	// done
 	/**
 	 * Returns Rock, Paper, or Scissors randomly
 	 * 
@@ -105,7 +99,6 @@ public class RPSGame {
 
 	}
 
-	//done
 	/**
 	 * Prints out what the move of each player was and who won
 	 */
@@ -113,7 +106,6 @@ public class RPSGame {
 		System.out.println(oneMove + " vs. " + twoMove + ": " + roundWinner + " wins.");
 	}
 
-	//done
 	/**
 	 * Prints out who wins depending on how many rounds each player won
 	 */
